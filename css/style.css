@@ -1,0 +1,79 @@
+.navbar.bg-primary {
+    background-color: #4A148C !important;
+}
+
+footer.custom-footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #e9ecef;
+}
+
+
+.card {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transform: translateY(-3px);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 100vw; 
+    height: 400px; 
+    overflow: hidden; 
+    background-color: #333; 
+}
+
+.carousel-track {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.carousel-slide {
+    min-width: 100%; 
+    height: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
